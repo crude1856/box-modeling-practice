@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.container,
+.second-container {
+    margin: 30px;
+    border: 2px red solid;
+    padding: 50px;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+#item_container,
+#second_item_container{
+    border: 2px red solid;
+    padding: 50px;   
+}
+
+#item_container {
+    background-color: burlywood;
+}
+
+#item_container a,
+#second_item_container a {
+    text-decoration: none;
+}
+
+.container .items-container,
+.second-container .sweet-palette-container {
+    display: flex;
+    border: 2px red solid;
+    padding: 50px;
+    list-style: none;
+}
+
+.container .items-container {
+    background-color: blue;
+}
+
+.red-item,
+.green-item,
+.blue-item {
+    margin: 0 10px;
+    border: 2px red solid;
+    padding: 50px;
+    color: crimson;
+}
+
+.red-item {
+    background-color: lightcoral;
+}
+
+.green-item {
+    background-color: lightgreen;
+}
+
+.blue-item {
+    background-color: lightblue;
+}
+
+.second-container {
+    background-color: gray;
+}
+
+#second_item_container {
+    background-color:chartreuse ;
+}
+
+.sweet-palette-container {
+    background-color: #4A3933;
+}
+
+.sweet-palette-container li {
+    margin: 0 10px;
+    border: 2px red solid;
+    padding: 50px;
+}
+
+.second-container .sweet-palette-container .color-1 {
+    background-color: #F0A500;
+}
+
+.second-container .sweet-palette-container .color-2 {
+    background-color: #E45826;
+}
+
+.second-container .sweet-palette-container .color-3 {
+    background-color: #E6D5B8;
+}
